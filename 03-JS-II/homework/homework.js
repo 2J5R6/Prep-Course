@@ -167,12 +167,13 @@ function esPrimo(numero) {
   for(i=1; i<=numero; i++){
     if(numero%i ===0){
     k=k+1
-  }
-}  if(k===2){
+     }
+    } 
+     if(k===2){
    return true 
-  }else{
+     }else{
     return false
-  }
+ }
 }
 
 
@@ -187,10 +188,7 @@ function tablaDelSeis(num){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  for  (let i=0, i<=10 , i++){
-   p == num*i
-   console.log (p);
-  }
+  
 }
 
 function tieneTresDigitos(numero){
