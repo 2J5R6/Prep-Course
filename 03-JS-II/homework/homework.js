@@ -194,12 +194,13 @@ function tablaDelSeis(num){
   //Escribe tu código aquí   
   n=[]
   num=6 
-  for(var i=1; i<=10; i++){
+  for(var i=0; i<=10; i++){
  
      p=num*i
      n.push(p)
-     return n
+     
   }
+  return n
 }
 
 
